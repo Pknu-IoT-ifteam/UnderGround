@@ -7,8 +7,7 @@ C++과 언리얼 엔진을 활용하여 플레이어와 AI가 다른 클래스�
 
 ## 🎮 게임 개요
 
-#### 이름 : Underground
-
+- **이름**: UnderGround
 - **장르**: 1인칭 PVP FPS  
 - **모드**: 점령전 (Capture Point)  
 - **플레이 방식**: 3vs3 팀전 (플레이어 1명 + AI 2명 vs AI 3명)  
