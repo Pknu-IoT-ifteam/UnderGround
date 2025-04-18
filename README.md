@@ -22,7 +22,7 @@ C++과 언리얼 엔진을 활용하여 플레이어와 AI가 다른 클래스�
 | 직업 | 체력 | 탄창 | 특징 |
 |------|------|------|-------|
 | 탱커 | 250  | 25   | 방벽/돌진 등 라인 컨트롤 |
-| 딜러 | 200  | 30   | 대미지, 빠른 이동기 |
+| 딜러 | 200  | 30   | 데미지, 빠른 이동기 |
 | 힐러 | 200  | 20   | 힐, 보호막, 부활 기능 |
 
 - 직업 선택 후 캐릭터 생성  
@@ -86,6 +86,7 @@ C++과 언리얼 엔진을 활용하여 플레이어와 AI가 다른 클래스�
   - DealerCharacter.h / .cpp  → 딜러 전용 클래스  
   - TankerCharacter.h / .cpp  → 탱커 전용 클래스  
   - HealerCharacter.h / .cpp  → 힐러 전용 클래스
+  - AICharacter.h / .cpp → AI 전용 클래스
   - DealerAICharacter.h / .cpp → AI딜러 전용 클래스 
   - TankerAICharacter.h / .cpp → AI탱커 전용 클래스 
   - HealerAICharacter.h / .cpp → AI힐러 전용 클래스
