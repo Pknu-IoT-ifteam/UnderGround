@@ -87,6 +87,7 @@ C++과 언리얼 엔진을 활용하여 플레이어와 AI가 다른 클래스�
 ├── DealerCharacter.h / .cpp     # 딜러 전용 클래스
 ├── TankerCharacter.h / .cpp     # 탱커 전용 클래스
 ├── HealerCharacter.h / .cpp     # 힐러 전용 클래스
+├── AICharacter.h / .cpp         # AI 전용 클래스 (AI 행동 조건)
 ├── DealerAICharacter.h / .cpp   # AI 딜러 전용 클래스
 ├── TankerAICharacter.h / .cpp   # AI 탱커 전용 클래스
 ├── HealerAICharacter.h / .cpp   # AI 힐러 전용 클래스
