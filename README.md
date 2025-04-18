@@ -82,15 +82,15 @@ C++과 언리얼 엔진을 활용하여 플레이어와 AI가 다른 클래스�
 
 📦 Source/IfProject  
 - **Character/**  
-  - BaseCharacter.h / .cpp → 공통 캐릭터 베이스 클래스 (체력, 리스폰, 탱딜힐 스킬 함수 등 모든 주요 함수 포함됨) 
-  - DealerCharacter.h / .cpp  → 딜러 전용 클래스  
-  - TankerCharacter.h / .cpp  → 탱커 전용 클래스  
-  - HealerCharacter.h / .cpp  → 힐러 전용 클래스
-  - AICharacter.h / .cpp → AI 전용 클래스
+  - BaseCharacter.h / .cpp     → 공통 캐릭터 베이스 클래스 (체력, 리스폰, 탱딜힐 스킬 함수 등 모든 주요 함수 포함됨) 
+  - DealerCharacter.h / .cpp   → 딜러 전용 클래스  
+  - TankerCharacter.h / .cpp   → 탱커 전용 클래스  
+  - HealerCharacter.h / .cpp   → 힐러 전용 클래스
+  - AICharacter.h / .cpp       → AI 전용 클래스
   - DealerAICharacter.h / .cpp → AI딜러 전용 클래스 
   - TankerAICharacter.h / .cpp → AI탱커 전용 클래스 
   - HealerAICharacter.h / .cpp → AI힐러 전용 클래스
-  - JobType.h        → 직업 enum 정의  
+  - JobType.h                  → 직업 enum 정의  
 
 - **Weapon/**  
   - Gun.h / .cpp       → 총기 클래스  
