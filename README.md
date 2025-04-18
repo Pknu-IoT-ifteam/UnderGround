@@ -81,27 +81,27 @@ C++과 언리얼 엔진을 활용하여 플레이어와 AI가 다른 클래스�
 ## 📁 디렉토리 구조 (요약)
 
 📦 Source/IfProject  
-- **Character/**  
-  - BaseCharacter.h / .cpp     → 공통 캐릭터 베이스 클래스 (체력, 리스폰, 탱딜힐 스킬 함수 등 모든 주요 함수 포함됨) 
-  - DealerCharacter.h / .cpp   → 딜러 전용 클래스  
-  - TankerCharacter.h / .cpp   → 탱커 전용 클래스  
-  - HealerCharacter.h / .cpp   → 힐러 전용 클래스
-  - AICharacter.h / .cpp       → AI 전용 클래스
-  - DealerAICharacter.h / .cpp → AI딜러 전용 클래스 
-  - TankerAICharacter.h / .cpp → AI탱커 전용 클래스 
-  - HealerAICharacter.h / .cpp → AI힐러 전용 클래스
-  - JobType.h                  → 직업 enum 정의  
+```shell
+📁 Character/
+├── BaseCharacter.h / .cpp        # 공통 캐릭터 베이스 클래스 (체력, 리스폰, 공용 스킬 등)
+├── DealerCharacter.h / .cpp     # 딜러 전용 클래스
+├── TankerCharacter.h / .cpp     # 탱커 전용 클래스
+├── HealerCharacter.h / .cpp     # 힐러 전용 클래스
+├── DealerAICharacter.h / .cpp   # AI 딜러 전용 클래스
+├── TankerAICharacter.h / .cpp   # AI 탱커 전용 클래스
+├── HealerAICharacter.h / .cpp   # AI 힐러 전용 클래스
+└── JobType.h                    # 직업 enum 정의
 
-- **Weapon/**  
-  - Gun.h / .cpp       → 총기 클래스  
-  - IfProjectProjectile.h / .cpp → 발사체 클래스  
+📁 Weapon/
+├── Gun.h / .cpp                 # 총기 클래스
+└── IfProjectProjectile.h / .cpp # 발사체 클래스
 
-- **GameSystem/**  
-  - IfProjectGameMode.h / .cpp → 게임 규칙 및 점령전 로직  
-  - IfProjectHUD.h / .cpp    → UI 및 HUD 관리  
-
-- IfProject.cpp / .h       → 프로젝트 모듈 초기화  
-- IfProject.Build.cs      → 언리얼 빌드 설정 파일  
+📁 GameSystem/
+├── IfProjectGameMode.h / .cpp  # 게임 규칙 및 점령전 로직
+├── IfProjectHUD.h / .cpp       # UI 및 HUD 관리
+├── IfProject.h / .cpp          # 프로젝트 모듈 메인
+└── IfProject.Build.cs          # 언리얼 빌드 설정 파일
+```
 
 ---
 
