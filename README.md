@@ -13,6 +13,8 @@ C++과 언리얼 엔진을 활용하여 플레이어와 AI가 다른 클래스�
 - **플레이 방식**: 3vs3 팀전 (플레이어 1명 + AI 2명 vs AI 3명)  
 - **테마**: SF 기반 전장
 
+- **시연영상**: https://drive.google.com/file/d/1eFvqZVRrgGj3uNPfm0lSrtyFuPtQ_tSV/view?usp=sharing
+  
 ---
 
 ## 🧙 직업 시스템
